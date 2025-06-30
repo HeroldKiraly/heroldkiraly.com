@@ -1,0 +1,100 @@
+:root {
+    font-family: 'Figtree';
+    font-size: 16px;
+    
+    --background: #E7EAEA;
+    --textColor: #100C08;
+    --linkColor: #002e63;
+    --linkHoverColor: #4f86f7;
+}
+
+h1 {
+    font-size: 1.2em;
+}
+h2 {
+    font-size: 1.1em;
+}
+h3 {
+    font-size: 1.0em;
+}
+h4 {
+    font-size: 0.9em;
+}
+h5 {
+    font-size: 0.8em;
+}
+h6 {
+    font-size: 0.7em;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400px;
+    text-decoration: none;
+    color: var(--textColor);
+}
+
+p {
+    line-height: 1.4em;
+}
+
+a {
+    text-decoration: none;
+    color: var(--linkColor);
+}
+a:hover {
+    color: var(--linkHoverColor);
+}
+
+
+.italics {
+    font-style: italic;
+}
+
+.email {
+    font-size: 1em;
+    color: var(--linkColor);
+}
+
+ol {
+    list-style-type: none;
+    color: var(--textColor);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: var(--background);
+    color: var(--textColor);
+}
+.site-wrapper {
+    max-width: 30em;
+    padding: 0 5%;
+}
+
+.navigation_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation_links {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+.name_text {
+    font-size: 1.2em;
+}
+
+.social_icons {
+    display: flex;
+    gap: 0.5em;
+    align-items: center;
+}
+.social_icons i {
+    font-size: 1.5em;
+}
+
+.coming-soon {
+    pointer-events: none;
+}
