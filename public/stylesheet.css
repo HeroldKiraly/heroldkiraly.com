@@ -1,5 +1,11 @@
+@font-face {
+    font-family: Magda;
+    src: url("magda-regular.ttf");
+}
+
+
 :root {
-    font-family: 'Figtree';
+    font-family: Magda;
     font-size: 16px;
     
     --background: #E7EAEA;
